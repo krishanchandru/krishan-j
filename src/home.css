@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*nav*/
+
+
+.nav {
+    margin-top: 4px;
+}
+
+.navbar-header {
+    margin-top: 4px;
+}
+
+.header {
+    min-height: 70vh;
+    min-width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ljdIPVD7VSaX27Rc3TAUf4_gW4mfOg7rmg&usqp=CAU);
+
+}
+
+.line {
+    margin-top: 200px;
+    color: antiquewhite;
+    font-family: 'Audiowide', cursive;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.image1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+
+}
+
+.header1 {
+    margin-bottom: 10px;
+   
+}
+
+.aa {
+    color: aliceblue;
+}
+
+.fline {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    margin-top: 100px;
+
+}
+
+.body {
+    background-color: rgb(54, 53, 53);
+    margin-top:20px ;
+}
+
+.line2 {
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+
+}
+
+.image2 {
+    margin-left: 2%;
+}
+
+/*register page*/
+.register {
+    background-image: url(https://i.pinimg.com/originals/4b/5f/b6/4b5fb68f3a3f425344f265f970db6ec4.jpg);
+    height: 100%;
+    width: 100%;
+
+}
+
+.container {
+    background: #d8d3d380;
+    border-radius: 10px;
+    width: 40%;
+    height: 50%;
+    margin-top: 5%;
+}
+
+.register-sec {
+    padding: 50px 30px;
+    position: relative;
+    margin-top:20% ;
+
+}
+
+.register-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #2d2d33;
+    font-family: 'Audiowide', cursive;
+}
+
+.register-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #2d2e2e;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-login {
+    background: #323233;
+    color: #fff;
+    font-weight: 600;
+}
+
+.letter {
+    font-family: 'Righteous', cursive;
+}
+
+/*login page*/
+.login-block{
+    float:left;
+    width:100%;
+    padding : 50px 0;
+    background-image: url(https://i.pinimg.com/originals/4b/5f/b6/4b5fb68f3a3f425344f265f970db6ec4.jpg);
+}
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #252525;
+    font-family: 'Audiowide', cursive;
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #343435;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-login {
+    background: #2a2a2b;
+    color: #fff;
+    font-weight: 600;
+}
+.veiw{
+    margin-top: 5px;
+}
+.vvv{
+    color: aliceblue;
+
+}
+.dashboard{
+height:40% ;
+width:60% ;
+
+
+}
+.ccc{
+    margin-top: 25%;
+}
+.cccc{
+    font-family: 'Righteous', cursive;
+}
+

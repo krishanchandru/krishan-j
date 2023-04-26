@@ -79,28 +79,24 @@ return <Navigate to="/dashboard" />
             <section className="login-block ">
                <div className="container ">
                        {/*nav--------------------------------------start*/}
-                <nav className="navbar navbar-inverse navbar-fixed-top">
-                    <div className="container-flued navbarr">
-                        <div className="navbar-header">
-                        <Link className="navbar-brand"to={"/"}>A.A.KALAINILAVAN</Link>
-                        </div>
+               
+                        
                      
                        
-                            <ul className="navbar-nav nav">
-                                <li><Link to={"/"}><i className="glyphicon glyphicon-home"></i> Home</Link></li>
+                            
                                 
-                            </ul>
+                           
                          
-                            <ul className="navbar-nav nav navbar-right">
-                              { !autho()? (<li><Link to={"/login"}><i className="glyphicon glyphicon-user"></i> Sign_in</Link></li>):null}
+                         
+                            <button className="btn button btn-block"> { !autho()? (<li><Link to={"/login"}>Sign_in</Link></li>):null}</button> 
                               
                                {autho()?(<li><Link to={"/dashboard"}><i className="glyphicon glyphicon-dashboard"></i> Dashbord</Link></li>):null}
                                
-                            </ul>
+                            
                        
-                    </div>
+                    
 
-                </nav>
+               
                 {/*nav-------------------------------------------end*/}
                   <div className="row ">
                      <div className="col register-sec">
@@ -118,7 +114,7 @@ return <Navigate to="/dashboard" />
                            <div className="form-group">
                               <label htmlFor="exampleInputEmail1" className="text-uppercase letter">Email</label>
 
-                              <input type="text" className="form-control" onChange={getinputs} name="email" placeholder="kalainlavan@gmail.com" id="" />
+                              <input type="text" className="form-control" onChange={getinputs} name="email" placeholder="krish@gmail.com" id="" />
                               {errors.email.required ?
                                  (<span className="text-danger" >
                                     Email is required.
@@ -162,12 +158,7 @@ return <Navigate to="/dashboard" />
 
                </div>
                  {/*footer -----------------------------------------------start */}
-      <footer >
-                    <div className="fline">
 
-                        <div className="col-md-12 fline text-center"><Link className="aa"to={"/"}><h4>A.A.KALAINILAVAN</h4></Link><br /><p>EUSL/TC/IS/2020/COM/32</p></div>
-                    </div>
-                </footer>
            
             </section>
     

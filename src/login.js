@@ -67,28 +67,20 @@ return(
 <section className="login-block">
             <div className="container">
                    {/*nav--------------------------------------start*/}
-                   <nav className="navbar navbar-inverse navbar-fixed-top">
-                    <div className="container-flued navbarr">
-                        <div className="navbar-header">
-                        <Link className="navbar-brand"to={"/"}>A.A.KALAINILAVAN</Link>
-                        </div>
+                 
                        
                        
-                            <ul className="navbar-nav nav">
-                                <li><Link to={"/"}><i className="glyphicon glyphicon-home"></i> Home</Link></li>
-                               
-                            </ul>
-                            <ul className="navbar-nav nav navbar-right">
+                       
+                       
+                           
                              
                              
-                               {autho()?(<li><Link to={"/dashboard"}><i className="glyphicon glyphicon-dashboard"></i> Dashbord</Link></li>):null}
-                                { !autho()? ( <li><Link to={"/register"}><i className="glyphicon glyphicon-log-in"></i> Register</Link></li>):null}
+                           <div className='botton '>   {autho()?(<li><Link to={"/dashboard"}><i className="glyphicon glyphicon-dashboard"></i> Dashbord</Link></li>):null}
+                               <button className='btn btn-block'>{ !autho()? ( <li><Link to={"/register"}> Register</Link></li>):null}</button>
 
-                            </ul>
+                           </div> 
                        
-                    </div>
-
-                </nav>
+                 
                 {/*nav-------------------------------------------end*/}
                 <div className="row ">
                     <div className="col login-sec">
@@ -131,12 +123,10 @@ return(
                 </div>
              
             </div>
-            <footer >
-                    <div className="fline">
-
-                        <div className="col-md-12 fline text-center"><Link className="aa"to={"/"}><h4>A.A.KALAINILAVAN</h4></Link><br /><p>EUSL/TC/IS/2020/COM/32</p></div>
-                    </div>
-                </footer>
+           
+        </section>
+        <section>
+            <div className='kk'></div>
         </section>
 
   </div>  
